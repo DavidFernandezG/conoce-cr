@@ -1,0 +1,61 @@
+*  {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+.header{
+    background: #6666ff;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 18px;
+    line-height: 80px;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8 12px;
+    border-radius: 15px; 
+}
+.nav-menu-link:hover{
+    font-size: 20px;
+    background: #024070;
+    transition: 1s;
+}
+#piepagina{
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0%;
+    height: 6%;
+    width: 100%;
+    background-color: burlywood;
+}
